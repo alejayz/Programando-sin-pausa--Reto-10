@@ -18,7 +18,7 @@ if __name__ == "__main__":
     b = float(input("ingresar un número real: "))
     c = float(input("ingresar un número real: "))
     d = float(input("ingresar un número real: "))
-    PromArreglo = Reales(a,b,c,d) 
+    PromArreglo = Reales(a,b,c,d) # se evalúa la función en los valores ingresados
     print("el promedio de " + str(a) + ', ' + str(b) + ', ' + str(c) +', ' + str(d) + " es: " + str(PromArreglo))
 ```
 
